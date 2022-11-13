@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
-void main() 
+int main() 
 {
-	cout << "Hello World!!";
+	setlocale(LC_ALL, "Rus");
+		int a;
+	cout << "¬ведите число: ";
+	cin >> a;
 }
